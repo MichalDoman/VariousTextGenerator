@@ -4,9 +4,14 @@ from random import randint
 def main():
     topic = choose_topic()
     while True:
-        input('Click ENTER to generate: ')
-        print(generate(topic))
-        print('')
+        user_input = input('''Click ENTER to generate: 
+Or type in anything to go back to topics menu.''')
+        if not user_input:
+            print(generate(topic))
+            print('')
+        else:
+            print('')
+            main()
 
 
 def choose_topic():
@@ -65,6 +70,7 @@ def choose_topic():
         return power_metal_lyrics
     else:
         print('You have failed to type a simple number...')
+        main()
 
 
 def generate(dictionary):
@@ -81,6 +87,7 @@ def generate(dictionary):
         parts_list.append(part)
     sentence = ' '.join(parts_list) + '.'
     return sentence
+
 
 if __name__ == '__main__':
     main()
