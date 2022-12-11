@@ -6,8 +6,8 @@ def main():
     while True:
         user_input = input('''Click ENTER to generate: 
 Or type in anything to go back to topics menu.''')
+        print('')
         if not user_input:
-            print('')
             print(generate(topic))
             print('')
         else:
