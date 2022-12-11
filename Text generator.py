@@ -7,11 +7,12 @@ def main():
         user_input = input('''Click ENTER to generate: 
 Or type in anything to go back to topics menu.''')
         if not user_input:
+            print('')
             print(generate(topic))
             print('')
         else:
             print('')
-            main()
+            topic = choose_topic()
 
 
 def choose_topic():
@@ -86,7 +87,8 @@ def generate(dictionary):
         part = dictionary[key][randint(0, len(dictionary[key]) - 1)]
         parts_list.append(part)
     sentence = ' '.join(parts_list) + '.'
-    return sentence
+    ready_sentence = f'"{sentence}"'
+    return ready_sentence
 
 
 if __name__ == '__main__':
