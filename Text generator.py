@@ -62,7 +62,7 @@ def choose_topic():
 
     print('Choose a topic:')
     print('Type 1 for: Janusz Korwin Mikke [PL]')
-    print('Type 2 for: power metal lyrics [EN]')
+    print('Type 2 for: Power Metal lyrics [EN]')
     choice = input()
 
     if choice == '1':
