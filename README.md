@@ -14,7 +14,7 @@ Type 1 for: Janusz Korwin Mikke [PL]
 Type 2 for: Power Metal lyrics [EN]
 ```
 
-Once the topic is chosen, you can continuously generate sentences by clicking enter. To go back to the topic selection screen, before clicking enter type in anything. Here is the example of an outcome:
+Once the topic is chosen, you can continuously generate sentences by clicking enter. To go back to the topic selection screen, before clicking enter type in anything. Here is an example of an outcome:
 
 ```
 Choose a topic:
