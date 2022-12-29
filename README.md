@@ -1,4 +1,4 @@
-# VariousTextGenerator
+# VariousTextGenerator (own project)
 
 ___
 
